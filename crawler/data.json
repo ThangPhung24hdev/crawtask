@@ -1,0 +1,428 @@
+{
+  "initialState": {
+    "api/v2/user": { "status": 401 },
+    "api/v1/jobs": {
+      "status": 200,
+      "data": {
+        "title": "Workable",
+        "totalSize": 96,
+        "nextPageToken": "eyJzZWFyY2hBdCI6IjIwMjQtMDUtMDhUMDc6MDA6MDAuMDAwWiIsIm9mZnNldCI6WzQ0LjQ2MTMzNCwxNzE0NDk0OTE0MDAwLCI5ODViM2VjYS1mZjNkLTRiZDctYjZjZi01YmIwYzA0NjJkYmMiXX0=",
+        "jobs": [
+          {
+            "department": "Engineering",
+            "id": "7262fecc-ab0d-4244-a7e2-5fff8b34867e",
+            "title": "Full Stack Developer - Integrations (PHP/Typescript/React)",
+            "state": "published",
+            "description": "<p>At Deskpro, we make helpdesk software and we have customers of all shapes and sizes from across the globe, including Vodafone, Microsoft, NHS, and Panasonic. Deskpro is a large product with a large variety of features and modules, from email, chat, and voice, to blog posts, knowledgebase, and guides, and everything in between. There's always something new to build.</p><p>We have a Wimbledon office but <strong>remote opportunities are available</strong> for UK-based candidates who can't commute in.</p><p><a href=\"https://deskpro.com/careers\" rel=\"nofollow noreferrer noopener\">View our careers page</a> </p><p></p><p><img src=\"https://workablehr.s3.amazonaws.com/uploads/photos/14354/ac70305dabbf317463efd20fde7d993b.png\" width=\"761px\" height=\"auto\" style=\"width:761px;height:auto\" /></p><p></p><p><strong>What you will do as a fullstack integrations engineer</strong></p><p>You will help us build new apps and integrations between Deskpro and other services and products. Deskpro already has a library of apps (some of which are open source here <a href=\"https://github.com/DeskproApps\" target=\"_blank\" rel=\"nofollow noreferrer noopener\">https://github.com/DeskproApps</a> - JIRA, Shopify, Salesforce, etc), and you will deliver even more.</p><p>You will be involved in all aspects of planning, developing, and delivering integrations. You'll deliver new apps, but you'll also help us create frameworks that enable other developers to create apps, and you'll work closely with our product team where you will have input on planning, design decisions, UX, and everything in between.</p><p>You'll be joining a small team where your specific experience will have great impact. You will have a lot of autonomy over your projects and you will get to use your expertise to lead by example.</p><p>Deskpro is a small company, and that means you will sometimes be expected to dip in and out of various roles as needs arise. You will learn a lot through the varied work, and you will get satisfaction in shipping software that gets used by thousands.</p><p></p><p><strong>Technology we use and where we're going</strong><br /></p><p>Most of the Deskpro product backends are written in PHP (Symfony, Laravel) with the primary data store being MySQL. The frontend is Typescript/React (with our own component library) and our primary APIs are GraphQL.</p><p>Integrations are often build atop our <em>apps framework</em>, a ReactJS/Typescript framework that lets us build sandboxed apps that live right inside of Deskpro. But there are deeper kinds of integrations that will require you to implement totally new product features such as PHP backends or APIs.</p><p></p><p><strong>Why should you be interested?</strong></p><ul> <li>You'll get to use and learn about many different products, APIs and technologies. Deskpro is the central hub for a lot of companies, and we're always adding new features and modules and integrations.</li> <li>You'll get to work with real customers and get a peek into how other businesses operate.</li> <li>You'll get to learn about scaling software as well as scaling the SaaS platform as a whole.</li> <li>You'll play a huge part in the overall product lifecycle.</li> </ul><p></p><p><strong>You are a good fit for the role if...</strong></p><ul> <li>You have an earnest interest in developing software with a desire to learn more about the craft.</li> <li>You have a lot of experience with PHP (with Symfony or Laravel) and experience with building SPAs with ReactJS (and ideally TypeScript).</li> <li>You have excellent written and verbal communication skills. We are big believers in \"writing stuff up\", everything from spec's to dev docs to RFC's. You need to be able to know your audience and communicate clearly.</li> <li>You enjoy solving problems yourself and like working in a \"get stuff done\" environment. We're a small team and we all generally just get on with things in a fairly autonomous manner. You won't be micro-managed.</li> </ul>",
+            "socialSharingDescription": "At Deskpro, we make helpdesk software and we have customers of all shapes and sizes from across the globe, including Vodafone, Microsoft, NHS, and Panasonic. Deskpro is a large product with a large variety of features and modules, from email, chat, and...",
+            "employmentType": "Full-time",
+            "benefitsSection": "<ul> <li><strong>Competitive Salary (\u00a370-80k)</strong></li> <li>Varied work. Both in terms of what integrations you will be working on, but you'll also have the opportunity to immerse yourself in other aspects of the company such as product planning, customer support, etc.</li> <li>A mixture of autonomy over your own work and real responsibilities to the team and business.</li> <li>Your choice of equipment (most of our devs use MBP's).</li> <li>We encourage self-improvement: Company-sponsored server/hosting for your side projects; books; conferences; courses. Just ask!</li> <li>A chance to be truly invested in your work and the company.</li> <li>2 minute walk from shops, restaurants, pubs and gyms.</li> <li>Lovely new offices, BBQs in the summer, Monday team breakfasts and Friday lunches. Unlimited coffee, tea, soft drinks and snacks with beers for Friday afternoon.</li> <li>BUPA Private Healthcare &amp; Cash Scheme, Pension Scheme, Bike Storage, Season ticket loans, Reduced gym membership.</li> </ul><p></p><p><em><strong>No recruiters or agencies please</strong></em></p><p><a href=\"https://deskpro.com/careers\" rel=\"nofollow noreferrer noopener\">View our careers page</a><br /></p>",
+            "requirementsSection": "<ul> <li>Strong experience building web apps with PHP and Symfony and/or Laravel. Our main product is written in PHP.</li> <li>Strong experience building SPA's with React. Typescript is a bonus.</li> <li>Strong experience working with a variety of APIs. You need to be able to grok API docs quickly and understand how things fit together.</li> <li>You should be a fast learner. We often venture into unknown territory so you should be a Google-fu master and have experience-driven intuition.</li> <li>You should be excited to dive deep into new technology, new products, new services, new languages. We're always happy to try new things if it'll help us ship better software.</li> <li>You should have a strong understanding of software architecture with opinions on \"the right way\" to do things.</li> <li>You should be a \"do-er\". You will have a lot of autonomy over your own work, and you will be expected to work with the team to make sure your projects get shipped.</li> <li>You work well with others and enjoy sharing your knowledge and leading by example.</li> <li>You should love the colour green. We're putting a big focus on delivering well-tested and super solid software!</li> </ul>",
+            "url": "https://jobs.workable.com/view/f8fmGdfuBUMWrRWYGGwEwJ/hybrid-full-stack-developer---integrations-(php%2Ftypescript%2Freact)-in-wimbledon-at-deskpro",
+            "applyUrl": "https://apply.workable.com/j/35F65DAB5D/apply",
+            "trackingPixelUrl": "http://apply.workable.com/p/35F65DAB5D",
+            "language": "en",
+            "locations": ["Wimbledon, England, United Kingdom"],
+            "location": {
+              "city": "Wimbledon",
+              "subregion": "England",
+              "countryName": "United Kingdom"
+            },
+            "created": "2024-05-07T00:00:00.000Z",
+            "updated": "2024-05-07T00:00:00.000Z",
+            "company": {
+              "id": "f59f342d-1068-4e5e-a4bd-6316fd407f0d",
+              "title": "Deskpro",
+              "website": "http://www.deskpro.com/careers",
+              "image": "https://workablehr.s3.amazonaws.com/uploads/account/logo/14354/logo",
+              "description": "<p><strong>Deskpro</strong> is an award winning technology startup based in central Wimbledon, London. We create industry leading helpdesk software, that helps organizations of all sizes provide better customer support.<br /></p><p>Our Head Office is located in Wimbledon, London - just a three minute walk from the centre of town, and easy transport links with trains, tubes, buses and trams on our doorstep. This is where our lead development, commercial and support teams are based.</p><p><a href=\"https://deskpro.com/careers\" rel=\"nofollow noreferrer noopener\">View our Careers page</a></p><p><br /></p><img title=\"Deskpro Office Pictures and Map\" alt=\"\" src=\"https://workablehr.s3.amazonaws.com/uploads/photos/14354/1cbc9d0ef23fbeb196e762a961414264.png\" style=\"display:block;margin:auto\" /><p><strong>Make your voice heard</strong> - We always ensure each and every member of the Deskpro team is given the autonomy to truly succeed.</p><p><strong>Be part of something incredible</strong> - The world\u2019s leading organizations rely on our product to provide their customers with the support they deserve.</p><p><strong>Become an industry leader</strong> - Deskpro's mission is to help our customers achieve long term commercial growth by facilitating an improvement in their customer support.</p><p><strong>Love your job</strong> - We do our utmost to facilitate a healthy work-life balance for all our employees, and make sure we have every opportunity to perform at our best.</p><p><br /></p><p><strong>Benefits at Deskpro</strong></p><p>Friendly team and work environment</p><p>Career progression</p><p>Company Bonus Scheme</p><p>Private Healthcare</p><p>Brand new offices</p><p>Sit-stand desks and top-end chairs</p><p>Weekly team lunches</p><p>Pension, cycle-to-work scheme</p><p>Unlimited tea, coffee, soft drinks and snacks</p><p><br /></p><p><strong><em>Unleash your potential with Deskpro. Apply today</em></strong></p><p><strong><em><a href=\"https://deskpro.com/careers\" rel=\"nofollow noreferrer noopener\">View our careers page</a><br /></em></strong></p>",
+              "url": "https://jobs.workable.com/company/wkaArvukS3XqKfHxbGWqCn/jobs-at-deskpro",
+              "socialSharingImage": "https://workablehr.s3.amazonaws.com/uploads/account/open_graph_logo/14354/social",
+              "socialSharingDescription": "Deskpro is an award winning technology startup based in central Wimbledon, London. We create industry leading helpdesk software, that helps organizations of all sizes provide better customer support to their customers."
+            },
+            "workplace": "hybrid"
+          },
+          {
+            "id": "8b4a21cf-8e93-4aef-b688-0275b6ceba89",
+            "title": "Full Stack Software Engineer",
+            "state": "published",
+            "description": "<p>Target Group are a leading business services provider in lending, investments and insurance, creating value for our clients through digital customer journey, outsourcing and operational transformation.</p><p>As a Fullstack Software Engineer, you will be focused on building software solutions based upon user stories and functional designs. You will work across a breadth of technologies and contribute to the adoption of new solutions.\u00a0 </p><p>You will have strong foundational experienced in the technologies used in this field, but most importantly you will relish picking up new frameworks and methods as the work evolves.\u00a0 You can work as part of an agile self-managing team. </p><p>The team works in an agile framework however Target has clients with fixed deadlines and budgets that we still need to achieve.\u00a0 </p><p>This is a fast-paced team, with a new product to complete and launch.\u00a0 It is a very exciting time in Target with lots of modernisation, new technologies and new clients.</p><p><strong>Main day to-day responsibilities include:</strong></p><ul> <li>Builds solutions, creates features and deliverables according to user stories or technical designs</li> <li>Creates and amends programs in accordance with the design.</li> <li>Provide support for existing systems, carrying out investigative work and performing software changes to resolve issues.</li> <li>Plan, design and conduct tests of programs; correct errors and re-test to achieve an error free result.</li> <li>Execute and document all work in accordance with agreed standards.</li> <li>Take part in continual improvement discussions to consider better ways of achieving solutions or conducting processes.</li> <li>Support change brought about through Software Engineering activities, showing understanding, imagination and creativity.</li> <li>Provides support to our offshore team to provide clarity of what is required for assigned tasks and removes blockers.</li> <li>Identify and solve customer problems within the time allocated.</li> <li>Estimate and plan work and advise manager of progress against activities and highlight issues</li> </ul>",
+            "socialSharingDescription": "Target Group are a leading business services provider in lending, investments and insurance, creating value for our clients through digital customer journey, outsourcing and operational transformation.As a Fullstack Software Engineer, you will be focus...",
+            "employmentType": "Full-time",
+            "benefitsSection": "<p>In addition to your basic salary (starting from \u00a345,000, depending on experience), we offer a comprehensive, flexible and market-competitive benefits package. Our flexible benefits package allows you to choose the benefits that best suit your lifestyle.</p><p>Core Benefits</p><ul> <li>30 days holiday plus bank holidays</li> <li>Annual Pay Review</li> <li>Discretionary Company Performance Bonus</li> <li>Employee Assistance Program</li> <li>Company paid Private Medical Insurance (benefit in kind)</li> <li>Free Flu Vaccinations, Eye Tests and employer contribution towards glasses</li> <li>My Recognition</li> <li>Confidential access to health and wellbeing support</li> <li>4 x Salary Life Insurance</li> </ul><p>Our flexible benefits scheme gives employees access to additional benefits to supplement their core package:</p><ul> <li>Pension Contribution \u2013 Salary Sacrifice</li> <li>Cycle2Work </li> <li>Critical Illness Cover + Dental Insurance</li> <li>Gym Flex</li> <li>Hello Fresh / Taste Card / Gourmet Card</li> <li>RAC Breakdown Cover</li> <li>Charitable Payroll Giving</li> <li>Buy / Sell holiday</li> <li>Technology loans</li> </ul><p>We\u2019re committed to creating a Diverse &amp; Inclusive culture through the execution of our D&amp;I strategy, community relationships, our people &amp; leaders.</p><p>Grow your future with us!</p>",
+            "requirementsSection": "<p><strong>We're looking for a Full Stack Software Engineer with at least 2 years experience of Java Software Development, with experience using the following technologies and test tools:</strong></p><ul> <li>React or Angular</li> <li>Spring Core / Boot or a similar framework</li> <li>REST API design</li> <li>Postgres or similar relational DBs</li> <li>Typescript</li> <li>React or a similar framework</li> <li>Unit testing, ideally Junit5 / Mockito (Java), React Testing Library (JavaScript) </li> </ul><p><strong>The right candidate will ideally have experience working in the Financial Services industry (Fintech is a bonus!) and will also:</strong></p><ul> <li>Have the ability to contribute to tech decisions, design and prioritising roadmap for technical debt</li> <li>Be an excellent communicator</li> <li>Be self-organised, can pick up things without a lot of support</li> <li>Collaboratively and proactively share knowledge</li> <li>Strives to achieve milestones and deadlines</li> <li>Implements solutions to mitigate risk</li> <li>Proactively raises any perceived risks with the Delivery/Project Manager so they can be recorded and mitigated</li> <li>Owns on tasks through to completion</li> <li>Implements innovative value-adding ideas</li> <li>Champions change and shows determination to overcome obstacles</li> <li>Delivers exceptional quality</li> </ul>",
+            "url": "https://jobs.workable.com/view/icB3fhkW2GVNZy5tLgnkfZ/remote-full-stack-software-engineer-in-newport-at-target",
+            "applyUrl": "https://apply.workable.com/j/2D8101AE7E/apply",
+            "trackingPixelUrl": "http://apply.workable.com/p/2D8101AE7E",
+            "language": "en",
+            "locations": ["TELECOMMUTE", "Newport, Wales, United Kingdom"],
+            "location": {
+              "city": "Newport",
+              "subregion": "Wales",
+              "countryName": "United Kingdom"
+            },
+            "created": "2024-05-03T00:00:00.000Z",
+            "updated": "2024-05-03T00:00:00.000Z",
+            "company": {
+              "id": "3def7c0c-9837-416c-b358-c4fc48e03518",
+              "title": "Target",
+              "website": "https://www.targetgroup.com/",
+              "image": "https://workablehr.s3.amazonaws.com/uploads/account/logo/295521/logo",
+              "description": "<p>We have one goal. To change the way customers feel.</p><p>We\u2019re a leading business services provider in lending, investments and insurance, creating value for our clients through digital customer journey, outsourcing and operational transformation.</p><p>At Target, we give you the opportunity to make a difference. You\u2019ll be involved in shaping the growth of the business \u2013 and you\u2019ll get to try new things along the way. </p><p>Working at Target</p><p>We offer a comprehensive, flexible and market-competitive benefits package. Our flexible benefits package allows you to choose the benefits that best suit your lifestyle.</p>",
+              "url": "https://jobs.workable.com/company/8DA4SXZeo48Aqwc7YkbAuY/jobs-at-target",
+              "socialSharingImage": "https://workablehr.s3.amazonaws.com/uploads/account/open_graph_logo/295521/social",
+              "socialSharingDescription": "We have one goal. To change the way customers feel. \nWe\u2019re a leading business services provider in lending, investments and insurance, creating value for our clients through digital customer journey, outsourcing and operational transformation. "
+            },
+            "workplace": "remote"
+          },
+          {
+            "id": "d3e196ec-47d9-4f7d-a6ef-f66bfe3ec764",
+            "title": "Senior Full Stack Engineer",
+            "state": "published",
+            "description": "<p>Hook's mission is to reinvent how businesses engage with their customers by providing machine-learnt insights to help companies radically improve customer loyalty and revenue forecasting using data.</p><p>We\u2019ve raised $multi-million in funding from some of the top investors in Europe and the US and have an enviable list of customers that we\u2019re working with including some of the fastest growing companies in the world. We\u2019re looking for ambitious people that want to be part of our meaningful vision of changing how businesses engage with their customers, and of building one of the world\u2019s leading workplaces for great people along the way.</p><p><strong>Responsibilities:</strong></p><p>You will wear many hats in your engineering duties. Your day-to-day will include:</p><ul> <li>Working in a team with technical and non-technical colleagues to design and build product features that add value to our customers</li> <li>Working across the stack - frontend and backend, and writing clean, well-tested code</li> <li>Own significant parts of our product architecture and propose and lead new improvements</li> <li>Reviewing other software engineers code and provide structured feedback</li> <li>Designing our engineering processes and patterns to be the best for our team</li> <li>Monitoring system performance and ensure everything is up and running</li> <li>Designing our data schemas to suit the needs across the business</li> </ul><p>There\u2019s a lot going on - you\u2019ll be building a brand new category of SaaS product! The more you want to be involved, the more you will find there is to do and the more impact you will have on our joint success.</p><p></p>",
+            "socialSharingDescription": "Hook&#39;s mission is to reinvent how businesses engage with their customers by providing machine-learnt insights to help companies radically improve customer loyalty and revenue forecasting using data.We\u2019ve raised $multi-million in funding from some o...",
+            "employmentType": "Full-time",
+            "benefitsSection": "<p>\ud83d\udcb8 \u00a375,000 - \u00a3105,000(depending on experience)</p><p>\ud83c\udfd6\ufe0f 27 days holiday (option to buy and sell holiday) + bank holidays</p><p>\ud83d\udcc8 Generous stock options</p><p>\ud83c\udfe5 Private health insurance so you can get the best care you need</p><p>\ud83e\uddd8 Flexible monthly wellness allowance that you can use monthly on things like gyms, yoga, mental health &amp; healthy food</p><p>\ud83d\udcda Annual learning &amp; development budget for every employee</p><p>\ud83c\udfe2 Flexible working - we\u2019ll all come together two days a week but otherwise you can work from home or come into our awesome office in Liverpool Street</p><p>\ud83d\udcbb The best equipment for everyone to work with</p><p>Our founder and team are incredibly passionate about creating a company culture that is diverse, inclusive, productive and enjoyable for all our colleagues. As part of a growing start-up team, we expect a lot from you and will work hard to make sure you have everything you need to be at your best.\u00a0<a href=\"https://apply.workable.com/hook-technology/j/A416BD229B/apply/\" rel=\"nofollow noreferrer noopener\"></a></p><p>At Hook, we embrace diversity in all its forms and are committed to creating an inclusive workplace where everyone feels valued and respected. We encourage applications from individuals of all backgrounds, experiences, and perspectives, as we believe that a diverse and inclusive team fosters innovation and contributes to our collective success. If you share our passion for excellence and want to contribute to a workplace that celebrates diversity, we encourage you to apply. We are an equal opportunity employer.</p><p></p>",
+            "requirementsSection": "<p>We're looking for an ambitious self-starter who wants to be part of an early-stage company full of amazing talent and with a global vision.</p><ul> <li>5+ years of experience in software development</li> <li>Experienced working on both frontend and backend development. We use React on the frontend side</li> <li>Experience working in taking products through different development environments into Production</li> <li>Excellent communication skills, with the ability to effectively collaborate and convey ideas to diverse stakeholders</li> <li>The ability to pick up and use third party APIs and tools</li> <li>Experience working with Python on the backend with frameworks, such as Django, Flask or FastAPI</li> <li>Desirable: A good understanding of cloud technologies</li> </ul>",
+            "url": "https://jobs.workable.com/view/savFoNTwK6KRSQVDojcHb5/hybrid-senior-full-stack-engineer-in-london-at-hook",
+            "applyUrl": "https://apply.workable.com/j/E7B28D8C4A/apply",
+            "trackingPixelUrl": "http://apply.workable.com/p/E7B28D8C4A",
+            "language": "en",
+            "locations": ["London, England, United Kingdom"],
+            "location": {
+              "city": "London",
+              "subregion": "England",
+              "countryName": "United Kingdom"
+            },
+            "created": "2024-05-02T00:00:00.000Z",
+            "updated": "2024-05-02T00:00:00.000Z",
+            "company": {
+              "id": "69b067f7-fd2a-489f-839f-c066f5eb594c",
+              "title": "Hook",
+              "website": "http://hook.co",
+              "image": "https://workablehr.s3.amazonaws.com/uploads/account/logo/456289/logo",
+              "description": "",
+              "url": "https://jobs.workable.com/company/e3XmNDFunKDXfdYSKxg93h/jobs-at-hook",
+              "socialSharingImage": "https://workablehr.s3.amazonaws.com/uploads/account/open_graph_logo/456289/social",
+              "socialSharingDescription": "Join Hook&#39;s mission to reimagine customer success with real-time data"
+            },
+            "workplace": "hybrid"
+          },
+          {
+            "id": "76e52c82-c2d8-4336-a270-057f7dc059b7",
+            "title": "Mid Full Stack Engineer",
+            "state": "published",
+            "description": "<div> <h2>Mid Full Stack Engineer</h2>  <span> Permanent employee, Full-time Central London-Hybrid 4-day workweek </span>  <div> About us <div> <br /><p><a href=\"http://climatepolicyradar.org/\">Climate Policy Radar</a> is on a mission to organise, analyse, and democratise the world\u2019s climate law and policy data. We build open databases and research tools so people can discover, understand and generate data-driven insights on public laws and policies. Our work helps governments, researchers, international organisations, civil society, and the private sector to understand and advance effective climate policies and deploy climate finance. Nearly 350,000 users from over 100 countries already use Climate Policy Radar\u2019s platform, which enables searching through half a million pages documenting climate action, by government, worldwide. </p><p>Harnessing data science and AI, and pioneering the application of natural language processing to this domain, our work unlocks previously inaccessible, unstructured data. This serves to enhance accountability, and promote data democratisation, transforming our<a href=\"https://app.climatepolicyradar.org\"> search engine</a> into a virtual research assistant for the climate world, powered by a unique open knowledge graph. We are deeply embedded in the global climate and AI communities, and count some of the most important organisations and global climate leaders amongst our users, advocates, friends and advisors. </p><p>We\u2019re a Community Interest Company, championing an open science approach that aims to promote collaboration, transparency and justice including open code and data. We are currently around 20 <a href=\"https://climatepolicyradar.org/about#team\">people</a>, and are embarking on a significant growth phase. Our team is characterised by its high level of expertise, shared mission-driven ethos, and a strong collaborative spirit that welcomes individuals from diverse backgrounds, perspectives, and experiences.</p><p>We are seeking a Mid Full-stack Engineer who will be instrumental in this journey, building high-scale, high-impact tools to help move the needle on climate change.</p> </div> Roles and responsibilities <div> <br /><p>In this role, you will help build and improve our portfolio of high-impact tools and products for global climate law and policy.</p><p>Here are some examples of what you might work on: </p><ul><li><p>Bringing cutting edge data science work into a product domain where the user experience best practices haven\u2019t been fully fleshed out. Our work is at the forefront of shaping the experience for researchers using an AI-powered research platform </p></li><li><p>Build out new features to help people find answers in large, complicated, dense text documents. This could be anything from helping with their search to active reading to data visualisation work </p></li><li><p>Continuing to develop our tools for supporting data partners in curating large libraries of climate-related documents</p></li><li><p>Building out our virtual research assistantroadmap ambition, including leveraging and productionising large language models to help researchers analyse data </p></li></ul><p>You will be working in a cross-functional team which uses a diverse tech stack such as the following (note: previous experience across all of these is not necessary): </p><ul><li><p>Backend: Python, FastAPI, PostgreSQL, Vespa, SQLAlchemy, Flask </p></li><li><p>Frontend: React, Next.js</p></li><li><p>Data Science: Python, Jupyter, PyTorch, Pandas, Spacy, Huggingface, Numpy, Streamlit, Weights and biases </p></li><li><p>Infra: Pulumi, Docker, AWS AppRunner, Step Functions, Grafana cloud monitoring, Prefect</p></li></ul> </div> You bring with you: <div> <br /><p>Must haves: </p><ul><li><p>Passion for learning and problem solving </p></li><li><p>Experience using Python with one of the modern frameworks (Django, Flask, FastAPI, Tornado etc) to build REST APIs </p></li><li><p>Experience using React for frontend features</p></li><li><p>Database knowledge, SQL and PostgreSQL </p></li><li><p>Understanding of software engineering fundamentals, version control (Git), shell scripting, OOP, unit and integration testing, and CI/CD</p></li><li><p>Some exposure to AWS (or other cloud platform) and best practices like EC2, S3, auto-scaling, security</p></li></ul><br /><p>Our ideal candidate will champion engineering excellence, open source, and delightful user experiences. </p><br /><p>We are looking for candidates with significant experience in highly collaborative cross-functional teams, excitement about working in a startup/scaleup environment and all that brings. </p><br /><p>We are a mission driven organisation, and work best with people who have strong alignment with our <a href=\"https://climatepolicyradar.org/about#values\">values</a>. We care about them deeply.</p> </div> Salary and Benefits: <div> Salary ranging from 60-70k, depending on experience<br />A deep commitment to employee wellbeing, including policies such as 4 day workweek (same pay, Fridays off), generous leave, and a wellbeing allowance<br />A vibrant, collaborative, empathetic work culture that thrives on innovation and the impact of our work<br />A hybrid work environment (2 days a week) in London\u2019s leading climate tech hub, offering views of the river in London\u2019s County Hall Building. <br /> </div> Interview process <div> We know that applying for a new job can be full of uncertainties - and we aim to reduce those by communicating clearly. Our process is made of several stages (see below). After each stage, we\u2019ll contact you as soon as we can and no longer than 2 working days, to let you know if you will be progressing to the next stage.<br />If you have a disability or special need that requires accommodation during the process of application and selection, please let us know.<br />Process:<br />1 hour behavioural interview with Director of Engineering and one other team member<br />1.5 hour interview with two team members, consisting of a paired technical assessment <br />30 minutes values fit interview with CEO and Head of People<br />Opportunity to chat to other team members (this is not an interview, but gives you the opportunity to get to know the team and learn more about us in an informal setting)<br />Offer subject to references<br /> </div> Right to Work in the UK <div> Unfortunately, we are currently unable to sponsor work visas. Only applicants legally authorised to work in the UK will be considered. </div> Equal opportunities <div> <p>Climate Policy Radar is an equal-opportunity workplace. We will not discriminate and will take affirmative action measures to ensure against discrimination in employment, recruitment, advertisements for employment, compensation, termination, upgrading, promotions, and other conditions of employment against any employee or job applicant on the bases of heritage, ancestry, national origin, citizenship, religion, sex, sexual orientation, gender identity, age, disabilities, relationship choices and status. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. </p><br /><p>We actively encourage applicants from diverse and historically underrepresented backgrounds. Not sure if you tick all the boxes but feel like you align with our values, are excited about working in Climate Change and AI and have the potential to do well in the role? Click apply! We\u2019d love to hear from you.</p><br /><p>If you have a disability or special need that requires accommodation in the process of application and selection, please let us know. </p> </div> About us <div> <span>Read more about us, check out our website here: </span><span><a href=\"https://climatepolicyradar.org/about\" rel=\"noreferrer noopener\" target=\"_blank\">https://climatepolicyradar.org/about</a></span> </div> </div> </div>",
+            "socialSharingDescription": " Mid Full Stack Engineer   Permanent employee, Full-time Central London-Hybrid 4-day workweek    About us  Climate Policy Radar is on a mission to organise, analyse, and democratise the world\u2019s climate law and policy data. We build open databases and r...",
+            "url": "https://jobs.workable.com/view/fFxcpqZSyfNJRA5DTwy5jk/mid-full-stack-engineer-in-central-london-at-climate-policy-radar",
+            "applyUrl": "http://apply.workable.com/j/7d63e0b3-af2a-490d-a67b-f457d54aa8d5/apply",
+            "trackingPixelUrl": "http://apply.workable.com/p/7d63e0b3-af2a-490d-a67b-f457d54aa8d5",
+            "locations": ["Central London, England, United Kingdom"],
+            "location": {
+              "city": "Central London",
+              "subregion": "England",
+              "countryName": "United Kingdom"
+            },
+            "created": "2024-05-02T00:00:00.000Z",
+            "updated": "2024-05-02T00:00:00.000Z",
+            "company": {
+              "id": "65dd98b9f9cd106923060f68",
+              "title": "Climate Policy Radar",
+              "website": "https://climatepolicyradar.org/",
+              "image": "https://production-job-board-public.s3.amazonaws.com/logos/bb42d207-8506-4c2f-8590-06c0189defb8",
+              "description": "Join us to build tools that help inform better decisions\n          \n          Working at Climate Policy Radar...\n          \n          High impact\n          A high impact and exciting mission at the intersection of technology, AI and policy. A chance to co-create and help us shape our journey \u2012 we are building our team and vision, so your input and impact will be significant.\n          \n          Larger community\n          Access to a larger community of climate and data enthusiasts \u2012 we are a member of Subak, an accelerator and cooperative for climate non-profit startups, and enjoy a joint programme of learning, collaborating and socialising.\n          \n          Commitment to your wellbeing\n          A deep commitment to our employees\u2019 mental and physical wellbeing. Among others we offer unlimited leave, flexible work hours, a generous wellbeing allowance, short Fridays, and great coffee. Hybrid work arrangement: stunning work space overlooking Westminster Bridge, combined with remote working.",
+              "url": "https://jobs.sustainableventures.co.uk/company/65dd98b9f9cd106923060f68/jobs-at-climate-policy-radar",
+              "socialSharingDescription": "Join us to build tools that help inform better decisions\n          \n          Working at Climate Policy Radar...\n          \n          High impact\n          A high impact and exciting mission at the intersection of technology, AI and policy. A chance to..."
+            },
+            "workplace": "on_site",
+            "externalDomain": "https://jobs.sustainableventures.co.uk"
+          },
+          {
+            "id": "24387be6-b107-4936-ae42-3cc54b917447",
+            "title": "Senior Full Stack Engineer",
+            "state": "published",
+            "description": "<div> <h2>Senior Full Stack Engineer</h2>  <span> Permanent employee, Full-time Central London-Hybrid 4-day workweek </span>  <div> About us <div> <br /><p><a href=\"http://climatepolicyradar.org/\">Climate Policy Radar</a> is on a mission to organise, analyse, and democratise the world\u2019s climate law and policy data. We build open databases and research tools so people can discover, understand and generate data-driven insights on public laws and policies. Our work helps governments, researchers, international organisations, civil society, and the private sector to understand and advance effective climate policies and deploy climate finance. Nearly 350,000 users from over 100 countries already use Climate Policy Radar\u2019s platform, which enables searching through half a million pages documenting climate action, by government, worldwide. </p><p>Harnessing data science and AI, and pioneering the application of natural language processing to this domain, our work unlocks previously inaccessible, unstructured data. This serves to enhance accountability, and promote data democratisation, transforming our<a href=\"https://app.climatepolicyradar.org\"> search engine</a> into a virtual research assistant for the climate world, powered by a unique open knowledge graph. We are deeply embedded in the global climate and AI communities, and count some of the most important organisations and global climate leaders amongst our users, advocates, friends and advisors. </p><p>We\u2019re a Community Interest Company, championing an open science approach that aims to promote collaboration, transparency and justice including open code and data. We are currently around 20 <a href=\"https://climatepolicyradar.org/about#team\">people</a>, and are embarking on a significant growth phase. Our team is characterised by its high level of expertise, shared mission-driven ethos, and a strong collaborative spirit that welcomes individuals from diverse backgrounds, perspectives, and experiences.</p><p>We are seeking a Senior Full-stack Engineer who will be instrumental in this journey, building high-scale, high-impact tools to help move the needle on climate change.</p> </div> Roles and responsibilities <div> <p>In this role, you will help build and improve our portfolio of high-impact tools and products for global climate law and policy.</p><p>Here are some examples of what you might work on: </p><ul><li><p>Bringing cutting edge data science work into a product domain where the user experience best practices haven\u2019t been fully fleshed out. Our work is at the forefront of shaping the experience for researchers using an AI-powered research platform </p></li><li><p>Build out new features to help people find answers in large, complicated, dense text documents. This could be anything from helping with their search to active reading to data visualisation work </p></li><li><p>Continuing to develop our tools for supporting data partners in curating large libraries of climate-related documents</p></li><li><p>Building out our virtual research assistantroadmap ambition, including leveraging and productionising large language models to help researchers analyse data </p></li></ul><p>You will be working in a cross-functional team which uses a diverse tech stack such as the following (note: previous experience across all of these is not necessary): </p><ul><li><p>Backend: Python, FastAPI, PostgreSQL, Vespa, SQLAlchemy, Flask </p></li><li><p>Frontend: React, Next.js</p></li><li><p>Data Science: Python, Jupyter, PyTorch, Pandas, Spacy, Huggingface, Numpy, Streamlit, Weights and biases </p></li><li><p>Infra: Pulumi, Docker, AWS AppRunner, Step Functions, Grafana cloud monitoring, Prefect</p></li></ul> </div> You bring with you: <div> <p>Must haves: </p><ul><li><p>Passion for learning and problem solving </p></li><li><p>Experience using Python with one of the modern frameworks (Django, Flask, FastAPI, Tornado etc) to build REST APIs </p></li><li><p>Experience using React for frontend features</p></li><li><p>Strong database knowledge, SQL and PostgreSQL </p></li><li><p>Solid understanding of software engineering fundamentals, version control (Git), shell scripting, OOP, unit and integration testing, and CI/CD</p></li><li><p>Some experience in system architecture and making technical decisions</p></li><li><p>Some exposure to AWS (or other cloud platform) and best practices like EC2, S3, auto-scaling, security</p></li></ul><p>At least one of the following: </p><ul><li><p>Working on an AI driven product. Used to working closely with data scientists or machine learning engineers, understanding some of the concepts and terminology</p></li><li><p>Experience contributing to data-dense products with complex, scaling architectural needs</p></li><li><p>Demonstrated passion for open-source software</p></li></ul><br /><p>Our ideal candidate will champion engineering excellence, open source, and delightful user experiences. </p><br /><p>We are looking for candidates with significant experience in highly collaborative cross-functional teams, excitement about working in a startup/scaleup environment and all that brings. </p><br /><p>We are a mission driven organisation, and work best with people who have strong alignment with our <a href=\"https://climatepolicyradar.org/about#values\">values</a>. We care about them deeply.</p><br /> </div> Salary and Benefits: <div> <ul><li><p>Salary ranging from 80-90k, depending on experience</p></li><li><p>A deep commitment to employee wellbeing, including policies such as 4 day workweek (same pay, Fridays off), generous leave, and a wellbeing allowance</p></li><li><p>A vibrant, collaborative, empathetic work culture that thrives on innovation and the impact of our work</p></li><li><p>A hybrid work environment (2 days a week) in London\u2019s leading climate tech hub, offering views of the river in London\u2019s County Hall Building. </p></li></ul> </div> Interview process <div> <p>We know that applying for a new job can be full of uncertainties - and we aim to reduce those by communicating clearly. Our process is made of several stages (see below). After each stage, we\u2019ll contact you as soon as we can and no longer than 2 working days, to let you know if you will be progressing to the next stage.</p><p>If you have a disability or special need that requires accommodation during the process of application and selection, please let us know.</p><p>Process:</p><br /><ol><li><p>1 hour behavioural interview with Director of Engineering and one other team member</p></li><li><p>1.5 hour interview with two team members, consisting of a paired technical assessment </p></li><li><p>1 hour system design interview with two team members</p></li><li><p>30 minutes values fit interview with CEO and Head of People</p></li><li><p>Opportunity to chat to other team members (this is not an interview, but gives you the opportunity to get to know the team and learn more about us in an informal setting)</p></li><li><p>Offer subject to references</p></li></ol> </div> Right to Work in the UK <div> <p>Unfortunately, we are currently unable to sponsor work visas. Only applicants legally authorised to work in the UK will be considered.</p> </div> Equal opportunities <div> <p>Climate Policy Radar is an equal-opportunity workplace. We will not discriminate and will take affirmative action measures to ensure against discrimination in employment, recruitment, advertisements for employment, compensation, termination, upgrading, promotions, and other conditions of employment against any employee or job applicant on the bases of heritage, ancestry, national origin, citizenship, religion, sex, sexual orientation, gender identity, age, disabilities, relationship choices and status. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. </p><br /><p>We actively encourage applicants from diverse and historically underrepresented backgrounds. Not sure if you tick all the boxes but feel like you align with our values, are excited about working in Climate Change and AI and have the potential to do well in the role? Click apply! We\u2019d love to hear from you.</p><br /><p>If you have a disability or special need that requires accommodation in the process of application and selection, please let us know. </p><br /> </div> About us <div> <span>Read more about us, check out our website here: </span><span><a href=\"https://climatepolicyradar.org/about\" rel=\"noreferrer noopener\" target=\"_blank\">https://climatepolicyradar.org/about</a></span> </div> </div> </div>",
+            "socialSharingDescription": " Senior Full Stack Engineer   Permanent employee, Full-time Central London-Hybrid 4-day workweek    About us  Climate Policy Radar is on a mission to organise, analyse, and democratise the world\u2019s climate law and policy data. We build open databases an...",
+            "url": "https://jobs.workable.com/view/5tq6njMMhQNga5wjrWqq8i/senior-full-stack-engineer-in-central-london-at-climate-policy-radar",
+            "applyUrl": "http://apply.workable.com/j/792c23da-1700-4979-b241-58c2706760e0/apply",
+            "trackingPixelUrl": "http://apply.workable.com/p/792c23da-1700-4979-b241-58c2706760e0",
+            "locations": ["Central London, England, United Kingdom"],
+            "location": {
+              "city": "Central London",
+              "subregion": "England",
+              "countryName": "United Kingdom"
+            },
+            "created": "2024-05-02T00:00:00.000Z",
+            "updated": "2024-05-02T00:00:00.000Z",
+            "company": {
+              "id": "65dd98b9f9cd106923060f68",
+              "title": "Climate Policy Radar",
+              "website": "https://climatepolicyradar.org/",
+              "image": "https://production-job-board-public.s3.amazonaws.com/logos/bb42d207-8506-4c2f-8590-06c0189defb8",
+              "description": "Join us to build tools that help inform better decisions\n          \n          Working at Climate Policy Radar...\n          \n          High impact\n          A high impact and exciting mission at the intersection of technology, AI and policy. A chance to co-create and help us shape our journey \u2012 we are building our team and vision, so your input and impact will be significant.\n          \n          Larger community\n          Access to a larger community of climate and data enthusiasts \u2012 we are a member of Subak, an accelerator and cooperative for climate non-profit startups, and enjoy a joint programme of learning, collaborating and socialising.\n          \n          Commitment to your wellbeing\n          A deep commitment to our employees\u2019 mental and physical wellbeing. Among others we offer unlimited leave, flexible work hours, a generous wellbeing allowance, short Fridays, and great coffee. Hybrid work arrangement: stunning work space overlooking Westminster Bridge, combined with remote working.",
+              "url": "https://jobs.sustainableventures.co.uk/company/65dd98b9f9cd106923060f68/jobs-at-climate-policy-radar",
+              "socialSharingDescription": "Join us to build tools that help inform better decisions\n          \n          Working at Climate Policy Radar...\n          \n          High impact\n          A high impact and exciting mission at the intersection of technology, AI and policy. A chance to..."
+            },
+            "workplace": "on_site",
+            "externalDomain": "https://jobs.sustainableventures.co.uk"
+          },
+          {
+            "id": "c95a86d6-a491-4d03-9b3a-96c3c04b985a",
+            "title": "Engineer (Full-Stack)",
+            "state": "published",
+            "description": "<p>About the role:</p><p>As the first hire, you will become a foundational pillar to all of our technology and play a critical role in shaping the future of the company. You will work hand-in-hand with the founders and will be fully empowered to design and build core components of our software product, from conception to deployment. You will provide technical support in early customer deployments and will play a critical role in building out and leading a world-class engineering function over the months and years ahead.</p><p>Note: This is a full-time, on-site position in New York and we do not support visa applications. Applicants who do not meet these requirements will not be taken into consideration.</p><p>Key responsibilities:</p><p>Developing core technology: Drive innovation through the design, build, and iteration of new product features, and help define key processes that enable fast build, launch, and scaling of the product. Defining product roadmap: Work closely with our founding team and engage directly with customers to gather feedback and refine the technical vision. Grow as a knowledge leader: Stay at the forefront of developments in LLM capabilities and relevant technical domains through research, reading, and experimentation. Build an engineering function: Play a critical role in recruiting new developers and have the opportunity to build and lead your own world-class engineering team.</p><p>The mindset:</p><p>You are an entrepreneurial self-starter, comfortable diving into technical problems where you may have limited prior knowledge. You enjoy a fast pace of development, iteration &amp; testing (in line with 'lean startup' best practices) and are always looking to learn. You are a kind and thoughtful individual, excited to embrace a culture of openness, reflection, and learning.</p>",
+            "socialSharingDescription": "About the role:As the first hire, you will become a foundational pillar to all of our technology and play a critical role in shaping the future of the company. You will work hand-in-hand with the founders and will be fully empowered to design and build...",
+            "employmentType": "Full-time",
+            "benefitsSection": "<p>Competitive salary and stock options: 1% - 2% stock option/equity plan; \u00a360k - \u00a3100k base salary. Comprehensive benefits package: Medical, dental, vision insurance, paid time off, company holidays, and 401k matching. An unrivaled 'day one' opportunity: We are on a mission to be the defining data infrastructure in enterprise use of LLMs. You\u2019ll be embedded in the creation of a leading company from day one. A culture of learning, openness, and optimism: We prioritize learning, experimentation, and aligning everyone\u2019s work with their strengths to optimize for us all working in \u2018flow states'. We value coaching, feedback, and managing our energy levels. Thoughtfulness around diversity &amp; inclusion: We promote diversity and provide equal opportunity for all employees with the ambition to build a company that represents a variety of backgrounds, perspectives, and skills. In-person collaboration: We believe that our best work happens when we are in the same room, and are thus building an in-person company in New York, with some flexibility for remote working &amp; travel.</p>",
+            "requirementsSection": "<p>Must haves:</p><p>Bachelor's degree in Computer Science, Engineering, or related field, or equivalent training or work experience. Proven experience as a full-stack engineer, ideally working on B2B SaaS products. You are able to work in-person in New York. Experience with Python, end-to-end software development, data structures &amp; algorithms, and developing micro-services on cloud (AWS, Azure, etc.).</p><p>Nice to have:</p><p>Experience in frontend engineering (ReactJS). Experience in developing and maintaining ML models and architecture (Sagemaker, Tensorflow, Azure ML).</p>",
+            "url": "https://jobs.workable.com/view/qS7vr99pC1Fem7RpaHxdHq/engineer-(full-stack)-in-london-at-unreal-gigs",
+            "applyUrl": "https://apply.workable.com/j/15E07C190D/apply",
+            "trackingPixelUrl": "http://apply.workable.com/p/15E07C190D",
+            "language": "en",
+            "locations": ["London, England, United Kingdom"],
+            "location": {
+              "city": "London",
+              "subregion": "England",
+              "countryName": "United Kingdom"
+            },
+            "created": "2024-05-01T00:00:00.000Z",
+            "updated": "2024-05-01T00:00:00.000Z",
+            "company": {
+              "id": "6eef1012-c442-4d20-b306-be8e9fbbebac",
+              "title": "Unreal Gigs",
+              "website": "https://www.unrealstaffing.com/",
+              "image": "https://workablehr.s3.amazonaws.com/uploads/account/logo/611956/logo",
+              "description": "<p>Your ultimate destination for exploring, discussing, and securing the most exciting Unreal Engine jobs and gaming careers in the universe. Embark on your dream journey today!</p>",
+              "url": "https://jobs.workable.com/company/eGw2ZZCVBjoLSufsKP2TsC/jobs-at-unreal-gigs",
+              "socialSharingImage": "https://workablehr.s3.amazonaws.com/uploads/account/open_graph_logo/611956/social",
+              "socialSharingDescription": "Your ultimate destination for exploring, discussing, and securing the most exciting Unreal Engine jobs and gaming careers in the universe. Embark on your dream journey today!\u200b"
+            },
+            "workplace": "on_site"
+          },
+          {
+            "id": "4a429a71-6188-4185-8ba4-002683de6f51",
+            "title": "Engineer (Full-Stack)",
+            "state": "published",
+            "description": "<p>About the role:</p><p>As the first hire, you will become a foundational pillar to all of our technology and play a critical role in shaping the future of the company. You will work hand-in-hand with the founders and will be fully empowered to design and build core components of our software product, from conception to deployment. You will provide technical support in early customer deployments and will play a critical role in building out and leading a world-class engineering function over the months and years ahead.</p><p>Note: This is a full-time, on-site position in New York and we do not support visa applications. Applicants who do not meet these requirements will not be taken into consideration.</p><p>Key responsibilities:</p><p>Developing core technology: Drive innovation through the design, build, and iteration of new product features, and help define key processes that enable fast build, launch, and scaling of the product. Defining product roadmap: Work closely with our founding team and engage directly with customers to gather feedback and refine the technical vision. Grow as a knowledge leader: Stay at the forefront of developments in LLM capabilities and relevant technical domains through research, reading, and experimentation. Build an engineering function: Play a critical role in recruiting new developers and have the opportunity to build and lead your own world-class engineering team.</p><p>The mindset:</p><p>You are an entrepreneurial self-starter, comfortable diving into technical problems where you may have limited prior knowledge. You enjoy a fast pace of development, iteration &amp; testing (in line with 'lean startup' best practices) and are always looking to learn. You are a kind and thoughtful individual, excited to embrace a culture of openness, reflection, and learning.</p>",
+            "socialSharingDescription": "About the role:As the first hire, you will become a foundational pillar to all of our technology and play a critical role in shaping the future of the company. You will work hand-in-hand with the founders and will be fully empowered to design and build...",
+            "employmentType": "Full-time",
+            "benefitsSection": "<p>Competitive salary and stock options: 1% - 2% stock option/equity plan; \u00a360k - \u00a3100k base salary. Comprehensive benefits package: Medical, dental, vision insurance, paid time off, company holidays, and 401k matching. An unrivaled 'day one' opportunity: We are on a mission to be the defining data infrastructure in enterprise use of LLMs. You\u2019ll be embedded in the creation of a leading company from day one. A culture of learning, openness, and optimism: We prioritize learning, experimentation, and aligning everyone\u2019s work with their strengths to optimize for us all working in \u2018flow states'. We value coaching, feedback, and managing our energy levels. Thoughtfulness around diversity &amp; inclusion: We promote diversity and provide equal opportunity for all employees with the ambition to build a company that represents a variety of backgrounds, perspectives, and skills. In-person collaboration: We believe that our best work happens when we are in the same room, and are thus building an in-person company in New York, with some flexibility for remote working &amp; travel.</p>",
+            "requirementsSection": "<p>Must haves:</p><p>Bachelor's degree in Computer Science, Engineering, or related field, or equivalent training or work experience. Proven experience as a full-stack engineer, ideally working on B2B SaaS products. You are able to work in-person in New York. Experience with Python, end-to-end software development, data structures &amp; algorithms, and developing micro-services on cloud (AWS, Azure, etc.).</p><p>Nice to have:</p><p>Experience in frontend engineering (ReactJS). Experience in developing and maintaining ML models and architecture (Sagemaker, Tensorflow, Azure ML).</p>",
+            "url": "https://jobs.workable.com/view/aaRKFmdhLGM9m1De9U9R1M/remote-engineer-(full-stack)-in-london-at-unreal-gigs",
+            "applyUrl": "https://apply.workable.com/j/358CE7465D/apply",
+            "trackingPixelUrl": "http://apply.workable.com/p/358CE7465D",
+            "language": "en",
+            "locations": ["TELECOMMUTE", "London, England, United Kingdom"],
+            "location": {
+              "city": "London",
+              "subregion": "England",
+              "countryName": "United Kingdom"
+            },
+            "created": "2024-05-01T00:00:00.000Z",
+            "updated": "2024-05-01T00:00:00.000Z",
+            "company": {
+              "id": "6eef1012-c442-4d20-b306-be8e9fbbebac",
+              "title": "Unreal Gigs",
+              "website": "https://www.unrealstaffing.com/",
+              "image": "https://workablehr.s3.amazonaws.com/uploads/account/logo/611956/logo",
+              "description": "<p>Your ultimate destination for exploring, discussing, and securing the most exciting Unreal Engine jobs and gaming careers in the universe. Embark on your dream journey today!</p>",
+              "url": "https://jobs.workable.com/company/eGw2ZZCVBjoLSufsKP2TsC/jobs-at-unreal-gigs",
+              "socialSharingImage": "https://workablehr.s3.amazonaws.com/uploads/account/open_graph_logo/611956/social",
+              "socialSharingDescription": "Your ultimate destination for exploring, discussing, and securing the most exciting Unreal Engine jobs and gaming careers in the universe. Embark on your dream journey today!\u200b"
+            },
+            "workplace": "remote"
+          },
+          {
+            "department": "Product",
+            "id": "65f8de18-431b-4a6d-8278-76db1c8bc627",
+            "title": "Full Stack Tech Lead",
+            "state": "published",
+            "description": "<h3>About the role: What are we looking for?</h3><p>We are seeking a Full stack tech lead to join our fast-paced and dynamic team. The candidate will be responsible for developing new features, maintaining and optimising our existing platform, and enhancing our infrastructure.</p><h3>About Searchland</h3><p>We are a new, fast-growing B2B prop-tech company looking to change how businesses and individuals access and use property data. Our customers include property developers, land agents, architects, and planners. </p><p>Over the past three years, we have built one of the UK's largest and most complete property data pipelines, spanning thousands of sources, terabytes of data, and less than 24-hour latency from source to platform. \u00a0</p><h3>Responsibilities</h3><ul> <li>Work closely with the Co-founder &amp; CTO, development and data teams.</li> <li>Manage and implement new features on the platform.</li> <li>Perform maintenance and optimisation on the existing platform.</li> <li>Collaborate with the team to design, develop, test, and implement software solutions.</li> <li>Decide and implement architectural parts of the system </li> <li>Perform code reviews for the team, providing advice and improvements to maintain high-quality code.</li> <li>Assist in mentoring senior engineers.</li> </ul>",
+            "socialSharingDescription": "About the role: What are we looking for?We are seeking a Full stack tech lead to join our fast-paced and dynamic team. The candidate will be responsible for developing new features, maintaining and optimising our existing platform, and enhancing our in...",
+            "employmentType": "Full-time",
+            "benefitsSection": "<h3>What we offer you : \u00a385k-\u00a395k</h3><ul> <li>Hybrid work model (office and remote working)</li> <li>Free Lunch on the 1st Week of the month</li> <li>Free Drinks on the last week of the month</li> <li>Staycations &amp; Holidays Abroad if targets met by team</li> <li>Office Equipment : Macbook, Monitor, Keyboard &amp; Mouse and Adapter.</li> <li>Team Activities : Pancake Day, Bake Off, Bubble Tea Networking, Halloween, Charity Events (3-Peaks, Golf) and networking treasure hunts and more.</li> <li>The opportunity to work in a fast-growing, international, and ambitious start-up</li> <li>Freedom to take ownership of your work</li> <li>Up-skill your professional competencies, from sales &amp; marketing to software development</li> <li>A unique insight into the planning and real estate industry. You\u2019ll be speaking with businesses of all shapes and sizes in the industry and helping them solve their problems.</li> <li>\u00a3500 personal growth fund</li> <li>Property development training days</li> <li>Flexibility on location &amp; hours</li> <li>28 days holidays (incl BH) &amp; unlimited unpaid holiday days</li> </ul>",
+            "requirementsSection": "<p><strong>Essential</strong></p><ul> <li>Extensive experience with Typescript</li> <li>Highly competent with React, Node.</li> <li>Experience with libraries like tRPC, GraphQL.</li> <li>Great knowledge and experience in SQL (Postgres)</li> <li>Experience in a SaaS Tech company</li> <li>Proven experience in deploying to production at a fast pace.</li> <li>Experience mentoring senior developers</li> </ul><p><strong>Desired</strong></p><ul> <li>Worked with mapping on the web (Google maps etc)</li> <li>Worked with Elasticsearch</li> </ul>",
+            "url": "https://jobs.workable.com/view/dAkkq56sfsS5zD9LMmAE5X/hybrid-full-stack-tech-lead-in-london-at-searchland",
+            "applyUrl": "https://apply.workable.com/j/098E91A154/apply",
+            "trackingPixelUrl": "http://apply.workable.com/p/098E91A154",
+            "language": "en",
+            "locations": ["London, United Kingdom, United Kingdom"],
+            "location": {
+              "city": "London",
+              "subregion": "United Kingdom",
+              "countryName": "United Kingdom"
+            },
+            "created": "2024-05-01T00:00:00.000Z",
+            "updated": "2024-05-01T00:00:00.000Z",
+            "company": {
+              "id": "368a091b-e85a-49d7-9885-ad6c5534d553",
+              "title": "Searchland",
+              "website": "http://searchland.co.uk",
+              "image": "https://workablehr.s3.amazonaws.com/uploads/account/logo/607811/logo",
+              "description": "",
+              "url": "https://jobs.workable.com/company/7JBDfkDG6NSQrKh8aGNKxR/jobs-at-searchland"
+            },
+            "workplace": "hybrid"
+          },
+          {
+            "id": "acba31e4-cd57-4914-8dc2-3e6b1483546c",
+            "title": "Full-Stack Engineer",
+            "state": "published",
+            "description": "<p><strong>About the role</strong></p><p>We are seeking highly skilled founding full-stack engineers to join our team. As a founding member, you will play a pivotal role in developing and maintaining both the front- and back-end components of our product.</p>",
+            "socialSharingDescription": "About the roleWe are seeking highly skilled founding full-stack engineers to join our team. As a founding member, you will play a pivotal role in developing and maintaining both the front- and back-end components of our product.",
+            "employmentType": "Full-time",
+            "benefitsSection": "<ul> <li>Base salary ranging from $90,000 to $170,000, depending on qualifications and experience.</li> <li>Equity ranging from 0.1% to 1.25%, allowing you to share in the success of our company.</li> <li>Opportunity to collaborate with a brilliant and ambitious team on groundbreaking AI technology.</li> </ul>",
+            "requirementsSection": "<p><strong>Responsibilities</strong></p><ol> <li> <strong>Building Core Foundations</strong>: You will spearhead the development of the core, scalable foundations of our backend infrastructure from scratch, laying the groundwork for a groundbreaking product in a rapidly growing market.</li> <li> <strong>Developing User Interface</strong>: Collaborate in planning, building, and refining our user interface to ensure it is intuitive, user-friendly, and aligned with customer needs and expectations.</li> <li> <strong>Product Roadmap Planning</strong>: Work closely with our founding team to gather insights from customer meetings and shape the product roadmap accordingly to achieve rapid product-market fit.</li> <li> <strong>Team Building</strong>: Play an integral role in assembling and scaling our engineering team, setting the culture, and driving growth.</li> </ol><p></p><p><strong>Who you'll work with</strong></p><p>You will collaborate closely with our talented founding team:</p><ul> <li>Sanj (Chief Research Officer and co-founder)</li> <li>Chris (Chief Executive Officer and co-founder)</li> <li>Angus (Chief Technology Officer and co-founder)</li> <li>Justin (Founding Member of Technical Staff)</li> </ul><p></p><p><strong>Who you are</strong></p><p>As a founding member, you are motivated, ambitious, and dedicated to building a billion-dollar business. You prioritize speed, are passionate about AI adoption, and possess a strong work ethic. You thrive in a positive, collaborative environment and are eager to contribute to the success of our team and customers.</p><p></p><p><strong>Skills &amp; Experience</strong></p><p><strong>Must Haves:</strong></p><ul> <li>Expertise in Python.</li> <li>Experience with databases (Postgres).</li> <li>Familiarity with full-stack development and frameworks.</li> </ul><p></p><p><strong>Preferred:</strong></p><ul> <li>Experience with Web Development (Typescript/React).</li> <li>Previous experience building and scaling commercial software.</li> </ul><p></p><p><strong>Nice To Haves:</strong></p><ul> <li>Experience with WYSIWYG HTML document editor APIs.</li> <li>Familiarity with AWS DevOps tooling.</li> <li>Knowledge of IT security.</li> <li>Exposure to AI technologies.</li> </ul>",
+            "url": "https://jobs.workable.com/view/nk67AniVvZqjz15ecVGmAY/remote-full-stack-engineer-in-london-at-unreal-gigs",
+            "applyUrl": "https://apply.workable.com/j/737DDF3327/apply",
+            "trackingPixelUrl": "http://apply.workable.com/p/737DDF3327",
+            "language": "en",
+            "locations": ["TELECOMMUTE", "London, England, United Kingdom"],
+            "location": {
+              "city": "London",
+              "subregion": "England",
+              "countryName": "United Kingdom"
+            },
+            "created": "2024-04-30T00:00:00.000Z",
+            "updated": "2024-04-30T00:00:00.000Z",
+            "company": {
+              "id": "6eef1012-c442-4d20-b306-be8e9fbbebac",
+              "title": "Unreal Gigs",
+              "website": "https://www.unrealstaffing.com/",
+              "image": "https://workablehr.s3.amazonaws.com/uploads/account/logo/611956/logo",
+              "description": "<p>Your ultimate destination for exploring, discussing, and securing the most exciting Unreal Engine jobs and gaming careers in the universe. Embark on your dream journey today!</p>",
+              "url": "https://jobs.workable.com/company/eGw2ZZCVBjoLSufsKP2TsC/jobs-at-unreal-gigs",
+              "socialSharingImage": "https://workablehr.s3.amazonaws.com/uploads/account/open_graph_logo/611956/social",
+              "socialSharingDescription": "Your ultimate destination for exploring, discussing, and securing the most exciting Unreal Engine jobs and gaming careers in the universe. Embark on your dream journey today!\u200b"
+            },
+            "workplace": "remote"
+          },
+          {
+            "id": "985b3eca-ff3d-4bd7-b6cf-5bb0c0462dbc",
+            "title": "Full-Stack Engineer",
+            "state": "published",
+            "description": "<p><strong>About the role</strong></p><p>We are seeking highly skilled founding full-stack engineers to join our team. As a founding member, you will play a pivotal role in developing and maintaining both the front- and back-end components of our product.</p>",
+            "socialSharingDescription": "About the roleWe are seeking highly skilled founding full-stack engineers to join our team. As a founding member, you will play a pivotal role in developing and maintaining both the front- and back-end components of our product.",
+            "employmentType": "Full-time",
+            "benefitsSection": "<ul> <li>Base salary ranging from $90,000 to $170,000, depending on qualifications and experience.</li> <li>Equity ranging from 0.1% to 1.25%, allowing you to share in the success of our company.</li> <li>Opportunity to collaborate with a brilliant and ambitious team on groundbreaking AI technology.</li> </ul>",
+            "requirementsSection": "<p><strong>Responsibilities</strong></p><ol> <li> <strong>Building Core Foundations</strong>: You will spearhead the development of the core, scalable foundations of our backend infrastructure from scratch, laying the groundwork for a groundbreaking product in a rapidly growing market.</li> <li> <strong>Developing User Interface</strong>: Collaborate in planning, building, and refining our user interface to ensure it is intuitive, user-friendly, and aligned with customer needs and expectations.</li> <li> <strong>Product Roadmap Planning</strong>: Work closely with our founding team to gather insights from customer meetings and shape the product roadmap accordingly to achieve rapid product-market fit.</li> <li> <strong>Team Building</strong>: Play an integral role in assembling and scaling our engineering team, setting the culture, and driving growth.</li> </ol><p></p><p><strong>Who you'll work with</strong></p><p>You will collaborate closely with our talented founding team:</p><ul> <li>Sanj (Chief Research Officer and co-founder)</li> <li>Chris (Chief Executive Officer and co-founder)</li> <li>Angus (Chief Technology Officer and co-founder)</li> <li>Justin (Founding Member of Technical Staff)</li> </ul><p></p><p><strong>Who you are</strong></p><p>As a founding member, you are motivated, ambitious, and dedicated to building a billion-dollar business. You prioritize speed, are passionate about AI adoption, and possess a strong work ethic. You thrive in a positive, collaborative environment and are eager to contribute to the success of our team and customers.</p><p></p><p><strong>Skills &amp; Experience</strong></p><p><strong>Must Haves:</strong></p><ul> <li>Expertise in Python.</li> <li>Experience with databases (Postgres).</li> <li>Familiarity with full-stack development and frameworks.</li> </ul><p></p><p><strong>Preferred:</strong></p><ul> <li>Experience with Web Development (Typescript/React).</li> <li>Previous experience building and scaling commercial software.</li> </ul><p></p><p><strong>Nice To Haves:</strong></p><ul> <li>Experience with WYSIWYG HTML document editor APIs.</li> <li>Familiarity with AWS DevOps tooling.</li> <li>Knowledge of IT security.</li> <li>Exposure to AI technologies.</li> </ul>",
+            "url": "https://jobs.workable.com/view/jPc2fbQ7HrvWh6xwndZ627/full-stack-engineer-in-london-at-unreal-gigs",
+            "applyUrl": "https://apply.workable.com/j/491DB7D74D/apply",
+            "trackingPixelUrl": "http://apply.workable.com/p/491DB7D74D",
+            "language": "en",
+            "locations": ["London, England, United Kingdom"],
+            "location": {
+              "city": "London",
+              "subregion": "England",
+              "countryName": "United Kingdom"
+            },
+            "created": "2024-04-30T00:00:00.000Z",
+            "updated": "2024-04-30T00:00:00.000Z",
+            "company": {
+              "id": "6eef1012-c442-4d20-b306-be8e9fbbebac",
+              "title": "Unreal Gigs",
+              "website": "https://www.unrealstaffing.com/",
+              "image": "https://workablehr.s3.amazonaws.com/uploads/account/logo/611956/logo",
+              "description": "<p>Your ultimate destination for exploring, discussing, and securing the most exciting Unreal Engine jobs and gaming careers in the universe. Embark on your dream journey today!</p>",
+              "url": "https://jobs.workable.com/company/eGw2ZZCVBjoLSufsKP2TsC/jobs-at-unreal-gigs",
+              "socialSharingImage": "https://workablehr.s3.amazonaws.com/uploads/account/open_graph_logo/611956/social",
+              "socialSharingDescription": "Your ultimate destination for exploring, discussing, and securing the most exciting Unreal Engine jobs and gaming careers in the universe. Embark on your dream journey today!\u200b"
+            },
+            "workplace": "on_site"
+          }
+        ],
+        "autoAppliedFilters": {}
+      }
+    }
+  },
+  "featureFlags": {
+    "candidateProfileEnabled": true,
+    "featured-postings": true,
+    "vjb_workplace_column": true,
+    "admin-company-tab-featured-jobs": true,
+    "wjb_personalization_enabled": false,
+    "wjb_weekly_job_digest_enabled": true,
+    "featured_bundle_email_to_workable": true,
+    "disallow_rejected_job_for_publish": false,
+    "wjb_new_filters_enabled": true,
+    "wjb_acp_turnstile_captcha_enabled": true,
+    "wjb_acp_turnstile_captcha_rejection_enabled": false,
+    "wjb_allow_daily_job_suggestions_enabled": true,
+    "wjb_complete_profile_prompt_enabled": true,
+    "wjb_lite_enabled": false,
+    "wjb_new_cookie_consent_enabled": true,
+    "wjb_experiment_signup_abn": "C",
+    "turnstile_managed_widget": false
+  },
+  "config": "Object.assign({\"swDisabled\":false,\"turnstileWidgetSiteKey\":\"0x4AAAAAAANKdUvHseU963dt\"}, { googleAnalyticsKey: undefined, bubblesEnabled: undefined })",
+  "assets": {
+    "logo": "https://workablehr-ui.s3.amazonaws.com/job-board/assets/jobs-by-workable-logo.png",
+    "heroImage": "https://workablehr-ui.s3.amazonaws.com/job-board/assets/jobs-by-workable-hero-illustration.png",
+    "favicon": {
+      "original": {
+        "url": "https://workablehr-ui.s3.amazonaws.com/job-board/assets/favicon.ico",
+        "type": "image/x-icon"
+      },
+      "small": {
+        "url": "https://workablehr-ui.s3.amazonaws.com/job-board/assets/favicon-16x16.png",
+        "type": "image/png",
+        "size": "16x16"
+      },
+      "medium": {
+        "url": "https://workablehr-ui.s3.amazonaws.com/job-board/assets/favicon-32x32.png",
+        "type": "image/png",
+        "size": "32x32"
+      },
+      "large": {
+        "url": "https://workablehr-ui.s3.amazonaws.com/job-board/assets/favicon-96x96.png",
+        "type": "image/png",
+        "size": "96x96"
+      },
+      "appleTouchIcon": {
+        "url": "https://workablehr-ui.s3.amazonaws.com/job-board/assets/apple-touch-icon.png"
+      },
+      "msApplicationTileImage": {
+        "url": "https://workablehr-ui.s3.amazonaws.com/job-board/assets/ms-icon-144x144.png"
+      }
+    }
+  },
+  "copies": {
+    "searchCardHeading": "Find a job with Workable",
+    "searchCardSubHeading": "Search thousands of job openings from global companies hiring right now. Remote or office-based, your perfect job could be waiting for you!",
+    "employerNoticeHeading": "Are you an employer?",
+    "employerNoticeText": "Workable has helped 27,000 companies hire more than 1.5 million people with its world-leading software. Discover how Workable can help your business.",
+    "partnerTradeName": "Workable",
+    "tiers": {
+      "first-tier": {
+        "title": {
+          "with-jobs": {
+            "non-bold-part": "View all jobs from ",
+            "bold-part_one": "Premier sponsor",
+            "bold-part_other": "Premier sponsors"
+          },
+          "no-jobs": {
+            "bold-part_one": "Premier sponsor",
+            "bold-part_other": "Premier sponsors"
+          }
+        }
+      },
+      "second-tier": {
+        "title_one": "Featured sponsor",
+        "title_other": "Featured sponsors"
+      },
+      "third-tier": {
+        "title": { "non-bold-part": "Find your ", "bold-part": "next employer" }
+      }
+    }
+  },
+  "meta": {
+    "baseTitle": "Jobs By Workable",
+    "baseDescription": "Search jobs using the new Job Finder from Workable. Explore thousands of open job listings hosted by Workable\u2018s all-in-one recruitment software, trusted by companies worldwide."
+  },
+  "urls": {
+    "termsAndConditions": "/terms",
+    "employerNotice": "https://www.workable.com/?utm_campaign=job_board&utm_source=job_board",
+    "privacyPolicy": "https://www.workable.com/privacy"
+  },
+  "csrf": "MZJM17fj-gbAyTcGiN1igkCtSMF1iWXQ5ZSY"
+}
